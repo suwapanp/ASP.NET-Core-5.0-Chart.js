@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "barChartJs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="py-5">
+    <canvas id="BarChartJs"></canvas>
+</div>
+
+@{
+    ChartJSCore.Models.Chart chart = (ChartJSCore.Models.Chart)ViewData["BarChartJs"];
+}
+
+@section Scripts
+{
+    <script>
+        @Html.Raw(chart.CreateChartCode("BarChartJs"));
+    </script>
+}
+
