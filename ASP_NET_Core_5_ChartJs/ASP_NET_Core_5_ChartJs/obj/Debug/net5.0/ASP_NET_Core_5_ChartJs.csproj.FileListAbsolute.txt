@@ -118,3 +118,4 @@ C:\MYSTART-UP2020\GitHub\ASP.NET-Core-5.0-Chart.js\ASP_NET_Core_5_ChartJs\ASP_NE
 C:\MYSTART-UP2020\GitHub\ASP.NET-Core-5.0-Chart.js\ASP_NET_Core_5_ChartJs\ASP_NET_Core_5_ChartJs\obj\Debug\net5.0\Razor\Views\Home\pieChartJs.cshtml.g.cs
 C:\MYSTART-UP2020\GitHub\ASP.NET-Core-5.0-Chart.js\ASP_NET_Core_5_ChartJs\ASP_NET_Core_5_ChartJs\obj\Debug\net5.0\Razor\Views\Home\barChartJs.cshtml.g.cs
 C:\MYSTART-UP2020\GitHub\ASP.NET-Core-5.0-Chart.js\ASP_NET_Core_5_ChartJs\ASP_NET_Core_5_ChartJs\obj\Debug\net5.0\Razor\Views\Home\lineChartJs.cshtml.g.cs
+C:\MYSTART-UP2020\GitHub\ASP.NET-Core-5.0-Chart.js\ASP_NET_Core_5_ChartJs\ASP_NET_Core_5_ChartJs\obj\Debug\net5.0\Razor\Views\Summary\Charts01.cshtml.g.cs

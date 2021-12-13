@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Charts01";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles
+{
+    <style>
+        .center {
+            text-align: center;
+        }
+    </style>
+}
+
+<div class="py-5 text-center" style="width:600px;height:500px;">
+    <canvas id="PieChartJs"></canvas>
+</div>
+
+@{
+    ChartJSCore.Models.Chart chart = (ChartJSCore.Models.Chart)ViewData["PieChartJs"];
+}
+
+@section Scripts
+{
+    <script>
+        @Html.Raw(chart.CreateChartCode("PieChartJs"));
+    </script>
+}
+
